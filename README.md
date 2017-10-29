@@ -22,7 +22,7 @@ run:
 	py -3 manage.py migrate
 
 manage.py提供的shell命令：
-	>>> python3 manage.py shell
+	>>> py -3 manage.py shell
 
 	>>> from sign.models import Event, Guest # 导入sign应用下的models.py中的Event表和Guest表
 	>>> table.objects.all() # 获得table（Event、Gues 表）中的所有对象
